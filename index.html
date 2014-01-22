@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>est47.js</title>
+</head>
+<body>
+    <h1>est47.js (easy select todofuken 47)</h1>
+    
+    <label for="jpmap">都道府県：</label><a href="#" class="map_select">地図から選択</a>
+        
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="jquery.est47.js"></script>
+    <script>
+        $(function () {
+            $(".map_select").est47();
+            // $(".map_select").est47({ callback: function(i, v){ alert("wahaa"+i+v); } });
+        });
+    </script>
+</body>
+</html>
