@@ -6,6 +6,14 @@ est47.js
 ## デモページ / demo
 http://retasretas.github.io/est47.js/
 
+## 更新履歴 / Changelog
+v 1.0.1 (H26.1.23) **重要！**
+- fixed 埼玉と神奈川が逆になっていたのを修正。
+- fixed スクロールすると都道府県名のポップアップがづれる不具合を修正。
+
+v 1.0.0 (H26.1.22)
+- Initial release.
+
 ## 特徴 / future
 ![est47.js ss](https://raw.github.com/retasretas/est47.js/master/preview.png)  
 47都道府県をセレクト要素で一列に並べると視認性が落ちますが、当プラグインを使えば地図を使ってグラフィカルで簡単に都道府県を選択できるよようになります。  
