@@ -1,5 +1,5 @@
 /*
-  est47.js (easy select todofuken 47) ver1.0.2 H26.1.23
+  est47.js (easy select todofuken 47) ver1.0.3 H26.1.23
   The MIT License (MIT)
   Copyright (c) 2014 @circle_retas
 */
@@ -53,7 +53,7 @@
                     preColor = $(this).attr("fill");
                     $(this).attr("fill", "#ff0000");
                     
-                    selectedIndex = parseInt($(this).attr('id').substr(1,2))-1;
+                    selectedIndex = parseInt($(this).attr('id').substr(1,2), 10)-1;
                     selectedValue = bindTfkn[selectedIndex];
                     
                     $("html").mousemove(function(event) {

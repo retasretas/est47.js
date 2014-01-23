@@ -7,6 +7,9 @@ est47.js
 http://retasretas.github.io/est47.js/
 
 ## 更新履歴 / Changelog
+v 1.0.3 (H26.1.23)
+- fixed : Opera12ちゃんにて栃木県と茨城県だけOperaの振る舞いの犠牲になってしまう問題を修正
+
 v 1.0.2 (H26.1.23)
 - fixed : 非webkit系ブラウザで地図がはみ出して表示されてしまう問題を修正
 
